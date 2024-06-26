@@ -3,18 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-public class boss : MonoBehaviour
+public class ded : MonoBehaviour
 {
-    public void OnCollisionEnter2D(Collision2D collision)
+    GameObject m_gameoverText = default;
+    bool m_isGameover = false;
+    void OnCollisionEnter2D(Collision2D collision)
+
     {
-       
-        if (collision.gameObject.tag == "Player")
-        {
-            Debug.Log("êŒÇ…Ç‘Ç¬Ç©Ç¡ÇΩ");
-                    
-        }
+        Debug.Log("âΩÇ©Ç…Ç‘Ç¬Ç©Ç¡ÇΩÅI");
     }
+       
     // Start is called before the first frame update
     void Start()
     {

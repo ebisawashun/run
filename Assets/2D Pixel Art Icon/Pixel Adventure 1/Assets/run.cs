@@ -43,7 +43,7 @@ public class run : MonoBehaviour
     }
     private void PlayerJump()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetKeyDown(KeyCode.Space))
         {
             if (IsGrounded())
             {

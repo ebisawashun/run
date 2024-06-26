@@ -23,12 +23,12 @@ public class camera : MonoBehaviour
             cameraPos.x = 0;
         }
 
-        if(transform.position.y < -1.2)
+        if(transform.position.y < -1.4)
         {
             cameraPos.y = 0;
         }
 
-        if(target.transform.position.y > -1.2)
+        if(target.transform.position.y > -1.4)
         {
             cameraPos.y = target.transform.position.y;
         }
