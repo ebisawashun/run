@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4162157641870336857}
   - component: {fileID: 6326498963018498005}
   - component: {fileID: 888950411257889864}
-  - component: {fileID: 6586121700543525092}
+  - component: {fileID: -7033759669069440339}
   m_Layer: 0
   m_Name: Apple
   m_TagString: Untagged
@@ -117,7 +117,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -162,8 +162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ab15ce20959a654ab234fab3fc8d305, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_moveSpeed: 10
---- !u!114 &6586121700543525092
+  m_moveSpeed: 7
+--- !u!114 &-7033759669069440339
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,8 +172,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8883495123367887000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
+  m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyWhenActivated: 1
-  healthChange: 1
+  pointsWorth: 1

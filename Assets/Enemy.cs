@@ -30,7 +30,7 @@ public class WallGenerator : MonoBehaviour
             m_timer = 0f;   // タイマーをリセットする
             int index = Random.Range(0, m_wallPrefabs.Length + 0);  // 配列からオブジェクトを選ぶためのインデックス（添字）をランダムに選ぶ
             GameObject go = Instantiate(m_wallPrefabs[index]);  // プレハブからオブジェクトを生成して、変数 go に入れる
-            go.transform.position = new Vector2(10f, 0f);   // 生成したオブジェクトの位置を定める
+            go.transform.position = new Vector2(10f, -2.5f);   // 生成したオブジェクトの位置を定める
         }
     }
 }

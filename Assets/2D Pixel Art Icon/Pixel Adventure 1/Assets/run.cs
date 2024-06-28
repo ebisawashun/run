@@ -51,6 +51,7 @@ public class run : MonoBehaviour
             }
 
         }
+
     }
     private bool IsGrounded()
     {
