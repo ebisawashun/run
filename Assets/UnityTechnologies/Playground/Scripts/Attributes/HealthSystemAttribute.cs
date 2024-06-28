@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 [AddComponentMenu("Playground/Attributes/Health System")]
 public class HealthSystemAttribute : MonoBehaviour
@@ -68,6 +69,7 @@ public class HealthSystemAttribute : MonoBehaviour
 		if(health <= 0)
 		{
 			Destroy(gameObject);
-		}
+            SceneManager.LoadScene("retry");
+        }
 	}
 }
