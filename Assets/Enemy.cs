@@ -5,7 +5,7 @@ using UnityEngine;
 /// 適当なオブジェクトにアタッチして使う。
 /// 一定間隔で、設定した Wall Prefabs からランダムにプレハブを選び、生成する
 /// </summary>
-public class BossGenereter : MonoBehaviour
+public class WallGenerator : MonoBehaviour
 {
     /// <summary>壁として生成するプレハブ</summary>
     [SerializeField] GameObject[] m_wallPrefabs = null;
@@ -30,8 +30,7 @@ public class BossGenereter : MonoBehaviour
             m_timer = 0f;   // タイマーをリセットする
             int index = Random.Range(0, m_wallPrefabs.Length + 0);  // 配列からオブジェクトを選ぶためのインデックス（添字）をランダムに選ぶ
             GameObject go = Instantiate(m_wallPrefabs[index]);  // プレハブからオブジェクトを生成して、変数 go に入れる
-            go.transform.position = new Vector2(10f, -2.8f);   // 生成したオブジェクトの位置を定める
+            go.transform.position = new Vector2(10f, 0f);   // 生成したオブジェクトの位置を定める
         }
-
     }
 }

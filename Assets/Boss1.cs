@@ -13,7 +13,7 @@ public class Boss1 : MonoBehaviour
     void Update()
     {
         // ‚ ‚é’ö“x¶‚És‚Á‚½‚ç
-        if (this.transform.position.x < -11f)
+        if (this.transform.position.x < -10f)
         {
             // ©•ª©g‚ğ”jŠü‚·‚é
             Destroy(this.gameObject);
