@@ -11,13 +11,16 @@ public class run : MonoBehaviour
 
     [SerializeField]
     private LayerMask groundLayer;
-    
+    AudioSource m_audio = default;
+
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
 
         groundCheckpoint = transform.GetChild(0).transform;
+      
+        m_audio = GetComponent<AudioSource>();
     }
 
     // Start is called before the first frame update
@@ -47,6 +50,7 @@ public class run : MonoBehaviour
         {
             if (IsGrounded())
             {
+                m_audio.Play();
                 rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             }
 
