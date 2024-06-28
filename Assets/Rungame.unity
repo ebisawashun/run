@@ -327,7 +327,7 @@ MonoBehaviour:
   - {fileID: 7188997857403539832, guid: 438c63b24d59a4c46b0f082ec8ff0e33, type: 3}
   - {fileID: 6865879248010215987, guid: 425cfd80ad93b1d45b33b94e26f04b39, type: 3}
   - {fileID: 2016551227766906636, guid: a941ed6f348075f43a495fd1a8f3bf2d, type: 3}
-  m_wallGenerateInterval: 2
+  m_wallGenerateInterval: 1.5
 --- !u!4 &456075125
 Transform:
   m_ObjectHideFlags: 0
@@ -436,7 +436,7 @@ Transform:
   m_GameObject: {fileID: 485704891}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.59, y: 0, z: 0}
+  m_LocalPosition: {x: 21.61, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -877,7 +877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movespeed: 0
-  jumpForce: 8
+  jumpForce: 10.5
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -896,7 +896,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
