@@ -144,7 +144,9 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 7179578325805304716, guid: 89a4791ae7039014cb080fe11b28bb00, type: 2}
+  - {fileID: 11400000, guid: 60a14b2cf8075584f9caf3155c59e2c3, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -955,7 +957,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: syukudai
-  metroPackageVersion: 
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -963,7 +965,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: syukudai
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: syukudai
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
